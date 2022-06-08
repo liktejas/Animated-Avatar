@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fb9300;
+}
+.title_container{
+    text-align: center;
+    margin-top: 50px;
+}
+.title_container h1{
+    font-size: 60px;
+    font-family: 'Major Mono Display', monospace;
+}
+.box{
+    width: 50%;
+    height: 550px;
+    background-color: grey;
+    margin: auto;
+    margin-top: 5%;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+.name{
+    margin-top: 7%;
+    color: white;
+    font-family: 'Gorditas', cursive;
+    font-size: 25px;
+}
+input{
+    background-color: #231e23;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid white;
+    height: 30px;
+}
+button{
+    text-transform: uppercase;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: #fb9300;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #fb9300;
+    letter-spacing: 2px;
+}
+input[type="radio"] {
+    width: 15px;
+    margin-top: -1px;
+    vertical-align: middle;
+}
+.gender{
+    font-family: 'Gorditas', cursive;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.gender_label{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .title_container{
+        margin-top: 10px;
+    }
+    .title_container h1{
+        font-size: 50px;
+        font-family: 'Major Mono Display', monospace;
+    }
+    .box{
+        width: 80%;
+        height: 500px;
+    }
+    .name{
+        margin-top: 10%;
+    }
+}
